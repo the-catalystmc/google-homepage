@@ -1,2 +1,2 @@
 # google-homepage
-My replication of theGoogle Homepage.
+My replication of the Google Homepage.

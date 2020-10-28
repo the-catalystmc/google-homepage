@@ -1,0 +1,49 @@
+/*Used to move navbar to the right side of screen and remove bullet points.*/
+#right-bar {position: relative;
+    top: 0px;
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  /*Used to set navbar horizantal, select font style and size.*/
+  li {
+    display: inline;
+    padding: 5px;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+      font-size: 81.25%;
+  }
+  /*Used to apply blue box and white text to sign in.*/
+  #sign-in {padding: 5px;
+  background-color: #007FFF;
+  color: white;}
+  
+  /*Used to move the Google logo away from the top and closer to the x-axis*/
+  #image {
+    position: relative;
+    top: 100px;
+  }
+  
+  /*Used to center image on y axis and make it responsive*/
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+    maxwidth:100%;
+    height: auto;
+  }
+  
+  .search {
+    position: relative;
+    top: 125px;
+    text-align: center;
+  }
+  /*Used to increase the width of searchbar and add border.*/
+  #search {
+    width: 60%;
+    border-radius: 25px;
+  }
+  /*Used to specify the searchbar height.*/
+  .search input {height: 40px;}
+  
